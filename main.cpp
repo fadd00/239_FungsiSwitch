@@ -49,15 +49,17 @@ void inputData(){
         
     case 4 :
     inputData();
-        cout << "hasil  pembagian = " << pembagian(bilangan1, bilangan2); << endl;
+        cout << "hasil  pembagian = " << pembagian(bilangan1, bilangan2) << endl;
         break;
-    
     case 5 : 
         break;
-    
     default:
-    cout << "pilihan tidak ada" << endl;    
+    cout << "pilihan tidak ada" << endl;
         break;}
+
+    system("pause");
+    system("CLS");
+
     } while (pilihan != 5);
 
 }
