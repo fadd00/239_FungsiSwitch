@@ -23,7 +23,7 @@ float pembagian(int a, int b){
 }
 int main() {
     int pilihan;  
-    
+
     cout << "simple kalkulator" << endl;
     cout << "=================" << endl;
     cout << "1. Penjumlahan" << endl;
@@ -33,4 +33,5 @@ int main() {
     cout << "5. Keluar" << endl;
     cout << "=================" << endl;
     cout << "Masukan Menu Pilihan" << endl;
+    cin >> pilihan;
 }
