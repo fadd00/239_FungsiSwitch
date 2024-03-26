@@ -8,20 +8,15 @@ void inputData(){
     cin >> bilangan1;
     cout << "masukan bilangan Kedua : ";
     cin >> bilangan2;
-}
-int penjumlahan(int a, int b){
+}int penjumlahan(int a, int b){
     return a + b;
-}
-int pengurangan(int a, int b){
+}int pengurangan(int a, int b){
     return a - b;
-}
-int perkalian(int a, int b){
+}int perkalian(int a, int b){
     return a * b;
-}
-float pembagian(int a, int b){
+}float pembagian(int a, int b){
     return a / b;
-}
-int main() {
+}int main() {
     int pilihan;  
 
     cout << "simple kalkulator" << endl;
