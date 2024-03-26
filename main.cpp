@@ -29,4 +29,34 @@ void inputData(){
     cout << "=================" << endl;
     cout << "Masukan Menu Pilihan" << endl;
     cin >> pilihan;
+
+    switch (pilihan)
+    {
+    case 1 :
+    inputData();
+        cout << "Hasil Penjumlahan = " << penjumlahan(bilangan1, bilangan2) << endl;
+        break;
+
+    case 2 :
+    inputData();
+        cout <<"Hasil Penjumlahan = " << pengurangan(bilangan1, bilangan2) << endl;
+        break;
+
+    case 3 :
+    inputData();
+        cout << "Hasil perkalian = " << perkalian(bilangan1, bilangan2) << endl;
+        break;
+        
+    case 4 :
+    inputData();
+        cout << "hasil  pembagian = " << pembagian(bilangan1, bilangan2); << endl;
+        break;
+    
+    case 5 : 
+        break;
+    
+    default:
+    cout << "pilihan tidak ada" << endl;    
+        break;
+    }
 }
