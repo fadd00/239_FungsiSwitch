@@ -30,14 +30,8 @@ void inputData(){
     cout << "Masukan Menu Pilihan" << endl;
     cin >> pilihan;
 
-    do
-    {
-        /* code */
-    } while (/* condition */);
-    
-
-    switch (pilihan)
-    {
+    do{
+        switch (pilihan){
     case 1 :
     inputData();
         cout << "Hasil Penjumlahan = " << penjumlahan(bilangan1, bilangan2) << endl;
@@ -63,6 +57,7 @@ void inputData(){
     
     default:
     cout << "pilihan tidak ada" << endl;    
-        break;
-    }
+        break;}
+    } while (pilihan != 5);
+
 }
