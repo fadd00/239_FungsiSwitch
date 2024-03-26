@@ -9,7 +9,9 @@ void inputData(){
     cout << "masukan bilangan Kedua : ";
     cin >> bilangan2;
 }
-
+int penjumlahan(int a, int b){
+    return a + b;
+}
 int main() {
 
 }
