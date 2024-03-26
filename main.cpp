@@ -30,6 +30,12 @@ void inputData(){
     cout << "Masukan Menu Pilihan" << endl;
     cin >> pilihan;
 
+    do
+    {
+        /* code */
+    } while (/* condition */);
+    
+
     switch (pilihan)
     {
     case 1 :
